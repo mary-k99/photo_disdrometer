@@ -1,0 +1,18 @@
+Fitter Status : Successful - Sun Apr 30 17:38:28 2023
+Quartus Prime Version : 21.1.0 Build 842 10/21/2021 SJ Lite Edition
+Revision Name : pr_ov7670_1
+Top-level Entity Name : pr_ov7670_1
+Family : MAX 10
+Device : 10M50DAF484C7G
+Timing Models : Final
+Total logic elements : 883 / 49,760 ( 2 % )
+    Total combinational functions : 707 / 49,760 ( 1 % )
+    Dedicated logic registers : 563 / 49,760 ( 1 % )
+Total registers : 563
+Total pins : 71 / 360 ( 20 % )
+Total virtual pins : 0
+Total memory bits : 28,672 / 1,677,312 ( 2 % )
+Embedded Multiplier 9-bit elements : 0 / 288 ( 0 % )
+Total PLLs : 1 / 4 ( 25 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )

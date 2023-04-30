@@ -1,0 +1,161 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'pll_for_sdram_0|altpll_component|auto_generated|pll1|clk[2]'
+Slack : -4.206
+TNS   : -183.248
+
+Type  : Slow 1200mV 85C Model Setup 'PCLK_cam'
+Slack : -2.719
+TNS   : -99.285
+
+Type  : Slow 1200mV 85C Model Setup 'hvsync:hvsync_0|hsync'
+Slack : -1.828
+TNS   : -23.459
+
+Type  : Slow 1200mV 85C Model Setup 'pll_for_sdram_0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 1.878
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'pll_for_sdram_0|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 0.303
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'PCLK_cam'
+Slack : 0.314
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'pll_for_sdram_0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.327
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'hvsync:hvsync_0|hsync'
+Slack : 0.629
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'PCLK_cam'
+Slack : -3.000
+TNS   : -125.563
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'hvsync:hvsync_0|hsync'
+Slack : -1.403
+TNS   : -19.642
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pll_for_sdram_0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.681
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk50'
+Slack : 9.873
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pll_for_sdram_0|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 19.707
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'pll_for_sdram_0|altpll_component|auto_generated|pll1|clk[2]'
+Slack : -3.550
+TNS   : -150.254
+
+Type  : Slow 1200mV 0C Model Setup 'PCLK_cam'
+Slack : -2.408
+TNS   : -86.250
+
+Type  : Slow 1200mV 0C Model Setup 'hvsync:hvsync_0|hsync'
+Slack : -1.607
+TNS   : -20.511
+
+Type  : Slow 1200mV 0C Model Setup 'pll_for_sdram_0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 2.493
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'pll_for_sdram_0|altpll_component|auto_generated|pll1|clk[2]'
+Slack : -0.015
+TNS   : -0.015
+
+Type  : Slow 1200mV 0C Model Hold 'pll_for_sdram_0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.284
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'PCLK_cam'
+Slack : 0.311
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'hvsync:hvsync_0|hsync'
+Slack : 0.583
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'PCLK_cam'
+Slack : -3.000
+TNS   : -125.029
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'hvsync:hvsync_0|hsync'
+Slack : -1.403
+TNS   : -19.642
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pll_for_sdram_0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.687
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk50'
+Slack : 9.894
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pll_for_sdram_0|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 19.695
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'pll_for_sdram_0|altpll_component|auto_generated|pll1|clk[2]'
+Slack : -1.461
+TNS   : -57.419
+
+Type  : Fast 1200mV 0C Model Setup 'PCLK_cam'
+Slack : -0.597
+TNS   : -12.212
+
+Type  : Fast 1200mV 0C Model Setup 'hvsync:hvsync_0|hsync'
+Slack : -0.150
+TNS   : -1.418
+
+Type  : Fast 1200mV 0C Model Setup 'pll_for_sdram_0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 6.525
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'pll_for_sdram_0|altpll_component|auto_generated|pll1|clk[2]'
+Slack : -0.003
+TNS   : -0.003
+
+Type  : Fast 1200mV 0C Model Hold 'PCLK_cam'
+Slack : 0.124
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'pll_for_sdram_0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.159
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'hvsync:hvsync_0|hsync'
+Slack : 0.243
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'PCLK_cam'
+Slack : -3.000
+TNS   : -94.848
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'hvsync:hvsync_0|hsync'
+Slack : -1.000
+TNS   : -14.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pll_for_sdram_0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.716
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk50'
+Slack : 9.666
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pll_for_sdram_0|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 19.725
+TNS   : 0.000
+
+------------------------------------------------------------

@@ -1,0 +1,59 @@
+
+State Machine - |pr_ov7670_1|camera_configure:camera_configure_0|SCCB_interface:SCCB1|FSM_return_state
+Name FSM_return_state.FSM_DONE FSM_return_state.FSM_END_SIGNAL_4 FSM_return_state.FSM_END_SIGNAL_3 FSM_return_state.FSM_END_SIGNAL_2 FSM_return_state.FSM_TX_BYTE_4 FSM_return_state.FSM_TX_BYTE_3 FSM_return_state.FSM_TX_BYTE_2 FSM_return_state.FSM_LOAD_BYTE FSM_return_state.0000 
+FSM_return_state.0000 0 0 0 0 0 0 0 0 0 
+FSM_return_state.FSM_LOAD_BYTE 0 0 0 0 0 0 0 1 1 
+FSM_return_state.FSM_TX_BYTE_2 0 0 0 0 0 0 1 0 1 
+FSM_return_state.FSM_TX_BYTE_3 0 0 0 0 0 1 0 0 1 
+FSM_return_state.FSM_TX_BYTE_4 0 0 0 0 1 0 0 0 1 
+FSM_return_state.FSM_END_SIGNAL_2 0 0 0 1 0 0 0 0 1 
+FSM_return_state.FSM_END_SIGNAL_3 0 0 1 0 0 0 0 0 1 
+FSM_return_state.FSM_END_SIGNAL_4 0 1 0 0 0 0 0 0 1 
+FSM_return_state.FSM_DONE 1 0 0 0 0 0 0 0 1 
+
+State Machine - |pr_ov7670_1|camera_configure:camera_configure_0|SCCB_interface:SCCB1|FSM_state
+Name FSM_state.FSM_TIMER FSM_state.FSM_DONE FSM_state.FSM_END_SIGNAL_4 FSM_state.FSM_END_SIGNAL_3 FSM_state.FSM_END_SIGNAL_2 FSM_state.FSM_END_SIGNAL_1 FSM_state.FSM_TX_BYTE_4 FSM_state.FSM_TX_BYTE_3 FSM_state.FSM_TX_BYTE_2 FSM_state.FSM_TX_BYTE_1 FSM_state.FSM_LOAD_BYTE FSM_state.FSM_START_SIGNAL FSM_state.0000 
+FSM_state.0000 0 0 0 0 0 0 0 0 0 0 0 0 0 
+FSM_state.FSM_START_SIGNAL 0 0 0 0 0 0 0 0 0 0 0 1 1 
+FSM_state.FSM_LOAD_BYTE 0 0 0 0 0 0 0 0 0 0 1 0 1 
+FSM_state.FSM_TX_BYTE_1 0 0 0 0 0 0 0 0 0 1 0 0 1 
+FSM_state.FSM_TX_BYTE_2 0 0 0 0 0 0 0 0 1 0 0 0 1 
+FSM_state.FSM_TX_BYTE_3 0 0 0 0 0 0 0 1 0 0 0 0 1 
+FSM_state.FSM_TX_BYTE_4 0 0 0 0 0 0 1 0 0 0 0 0 1 
+FSM_state.FSM_END_SIGNAL_1 0 0 0 0 0 1 0 0 0 0 0 0 1 
+FSM_state.FSM_END_SIGNAL_2 0 0 0 0 1 0 0 0 0 0 0 0 1 
+FSM_state.FSM_END_SIGNAL_3 0 0 0 1 0 0 0 0 0 0 0 0 1 
+FSM_state.FSM_END_SIGNAL_4 0 0 1 0 0 0 0 0 0 0 0 0 1 
+FSM_state.FSM_DONE 0 1 0 0 0 0 0 0 0 0 0 0 1 
+FSM_state.FSM_TIMER 1 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |pr_ov7670_1|camera_configure:camera_configure_0|OV7670_config:config_1|FSM_return_state
+Name 
+FSM_return_state.FSM_SEND_CMD 
+
+State Machine - |pr_ov7670_1|camera_configure:camera_configure_0|OV7670_config:config_1|FSM_state
+Name FSM_state.FSM_TIMER FSM_state.FSM_DONE FSM_state.FSM_SEND_CMD FSM_state.FSM_IDLE 
+FSM_state.FSM_IDLE 0 0 0 0 
+FSM_state.FSM_SEND_CMD 0 0 1 1 
+FSM_state.FSM_DONE 0 1 0 1 
+FSM_state.FSM_TIMER 1 0 0 1 
+
+State Machine - |pr_ov7670_1|fsm_global:fsm_global_0|glob_cs
+Name glob_cs.s1_rd glob_cs.s1_wait glob_cs.s1_idle glob_cs.s1_wr 
+glob_cs.s1_idle 0 0 0 0 
+glob_cs.s1_wait 0 1 1 0 
+glob_cs.s1_rd 1 0 1 0 
+glob_cs.s1_wr 0 0 1 1 
+
+State Machine - |pr_ov7670_1|sdram_cntr:sdram_cntr_0|cs
+Name cs.s0_Trp cs.s0_Trcd cs.s0_PALL cs.s0_PRE cs.s0_WRIT cs.s0_READ cs.s0_ACT cs.s0_MRS cs.s0_NOP cs.s0_idle 
+cs.s0_idle 0 0 0 0 0 0 0 0 0 0 
+cs.s0_NOP 0 0 0 0 0 0 0 0 1 1 
+cs.s0_MRS 0 0 0 0 0 0 0 1 0 1 
+cs.s0_ACT 0 0 0 0 0 0 1 0 0 1 
+cs.s0_READ 0 0 0 0 0 1 0 0 0 1 
+cs.s0_WRIT 0 0 0 0 1 0 0 0 0 1 
+cs.s0_PRE 0 0 0 1 0 0 0 0 0 1 
+cs.s0_PALL 0 0 1 0 0 0 0 0 0 1 
+cs.s0_Trcd 0 1 0 0 0 0 0 0 0 1 
+cs.s0_Trp 1 0 0 0 0 0 0 0 0 1 
